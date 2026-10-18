@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Sunshineboy06">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D97757"/>
+      <stop offset="0.55" stop-color="#C05F3F"/>
+      <stop offset="1" stop-color="#7C5CBF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="200" fill="url(#bg)"/>
+  <path d="M0,150 C150,110 250,180 420,150 C590,120 700,185 1000,140 L1000,200 L0,200 Z" fill="#ffffff" opacity="0.10"/>
+  <path d="M0,170 C200,140 380,195 560,168 C720,144 860,190 1000,165 L1000,200 L0,200 Z" fill="#ffffff" opacity="0.14"/>
+  <circle cx="880" cy="48" r="26" fill="#ffffff" opacity="0.12"/>
+  <circle cx="120" cy="40" r="14" fill="#ffffff" opacity="0.10"/>
+  <text x="500" y="98" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Hi, I'm Sunshineboy06</text>
+  <text x="500" y="148" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Helvetica, Arial, sans-serif" font-size="23" fill="#ffffff" opacity="0.92">把想法做成自己每天真的会用的工具</text>
+</svg>
