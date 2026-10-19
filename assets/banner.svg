@@ -1,16 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Sunshineboy06">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Sunshineboy06 — portfolio 2026">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#D97757"/>
-      <stop offset="0.55" stop-color="#C05F3F"/>
-      <stop offset="1" stop-color="#7C5CBF"/>
-    </linearGradient>
+    <radialGradient id="glowV" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#714cb6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#714cb6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowL" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4c7ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#d4c7ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowW" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#421d24" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#421d24" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="1000" height="200" fill="url(#bg)"/>
-  <path d="M0,150 C150,110 250,180 420,150 C590,120 700,185 1000,140 L1000,200 L0,200 Z" fill="#ffffff" opacity="0.10"/>
-  <path d="M0,170 C200,140 380,195 560,168 C720,144 860,190 1000,165 L1000,200 L0,200 Z" fill="#ffffff" opacity="0.14"/>
-  <circle cx="880" cy="48" r="26" fill="#ffffff" opacity="0.12"/>
-  <circle cx="120" cy="40" r="14" fill="#ffffff" opacity="0.10"/>
-  <text x="500" y="98" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Hi, I'm Sunshineboy06</text>
-  <text x="500" y="148" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Helvetica, Arial, sans-serif" font-size="23" fill="#ffffff" opacity="0.92">把想法做成自己每天真的会用的工具</text>
+
+  <rect width="1200" height="360" fill="#f2f0eb"/>
+
+  <!-- atmospheric glows -->
+  <circle cx="1010" cy="120" r="260" fill="url(#glowV)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="300" r="220" fill="url(#glowL)">
+    <animate attributeName="opacity" values="0.55;0.75;0.55" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1120" cy="330" r="180" fill="url(#glowW)"/>
+
+  <!-- floating glass card: top -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="7s" repeatCount="indefinite"/>
+    <rect x="852" y="64" width="272" height="86" rx="16" fill="#ffffff" fill-opacity="0.86" stroke="#ffffff" stroke-opacity="0.6"/>
+    <rect x="872" y="84" width="26" height="26" rx="8" fill="#d4c7ff"/>
+    <text x="885" y="102" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#421d24">C</text>
+    <text x="910" y="94" font-family="Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#292827">CCView</text>
+    <text x="910" y="112" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#666666">本地运行 · 无账号</text>
+    <text x="910" y="132" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#714cb6">官网已上线 ↗</text>
+  </g>
+
+  <!-- floating glass card: bottom -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="8.5s" repeatCount="indefinite"/>
+    <rect x="896" y="204" width="256" height="86" rx="16" fill="#ffffff" fill-opacity="0.86" stroke="#ffffff" stroke-opacity="0.6"/>
+    <rect x="916" y="224" width="26" height="26" rx="8" fill="#0c4243"/>
+    <text x="929" y="242" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#ffffff">L</text>
+    <text x="954" y="234" font-family="Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#292827">LearningOS</text>
+    <text x="954" y="252" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#666666">目标 · 计划 · 复盘</text>
+    <text x="954" y="272" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#714cb6">开发中</text>
+  </g>
+
+  <!-- headline block -->
+  <text x="72" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="4" fill="#714cb6">PORTFOLIO — 2026</text>
+  <text x="72" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="500" letter-spacing="-1.6" fill="#292827">Sunshineboy06</text>
+  <text x="72" y="222" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" font-weight="460" fill="#666666">把想法做成每天真的会用的东西。</text>
+
+  <!-- CTA pill -->
+  <rect x="72" y="252" width="148" height="44" rx="22" fill="#421d24"/>
+  <text x="100" y="279" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="500" fill="#ffffff">看看作品</text>
+  <text x="192" y="279" font-family="Segoe UI, sans-serif" font-size="15" fill="#d4c7ff">↓</text>
+  <text x="240" y="279" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="14" fill="#666666">两个自用产品，持续迭代中</text>
+
+  <rect x="0.5" y="0.5" width="1199" height="359" fill="none" stroke="#e3e3e2"/>
 </svg>

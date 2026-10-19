@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="LearningOS — 产品卡">
+  <rect width="1200" height="520" fill="#f2f0eb"/>
+
+  <text x="72" y="40" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#714cb6">02 — LEARNING SYSTEM</text>
+  <text x="1128" y="40" text-anchor="end" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#666666">本地运行 · 数据在自己手里</text>
+
+  <rect x="72" y="64" width="1056" height="392" rx="16" fill="#ffffff" stroke="#e3e3e2"/>
+
+  <!-- left: product identity -->
+  <rect x="104" y="104" width="36" height="36" rx="10" fill="#0c4243"/>
+  <text x="122" y="129" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700" fill="#ffffff">L</text>
+
+  <text x="104" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="-0.6" fill="#292827">LearningOS</text>
+  <text x="104" y="212" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13.5" fill="#666666">个人学习操作系统</text>
+
+  <text x="104" y="252" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="460" fill="#292827">目标、计划、材料、复盘，</text>
+  <text x="104" y="276" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="460" fill="#292827">收敛成一个每天都会打开的</text>
+  <text x="104" y="300" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="460" fill="#292827">本机应用。</text>
+
+  <text x="104" y="344" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#666666">Python · FastAPI · Vite · SQLite</text>
+
+  <text x="104" y="404" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="540" fill="#714cb6">整理后开源</text>
+
+  <!-- right: floating dashboard -->
+  <rect x="516" y="96" width="584" height="328" rx="14" fill="#ffffff" stroke="#e3e3e2"/>
+
+  <path d="M516 130 h584" stroke="#e3e3e2"/>
+  <circle cx="540" cy="113" r="4" fill="#e3e3e2"/>
+  <circle cx="554" cy="113" r="4" fill="#e3e3e2"/>
+  <circle cx="568" cy="113" r="4" fill="#e3e3e2"/>
+  <text x="586" y="118" font-family="Segoe UI, sans-serif" font-size="11.5" fill="#666666">LearningOS — 今日</text>
+  <rect x="956" y="102" width="124" height="22" rx="11" fill="#f2f0eb" stroke="#e3e3e2"/>
+  <text x="1018" y="117" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10" fill="#666666">连续 12 天</text>
+
+  <!-- nav -->
+  <path d="M648 131 v293" stroke="#e3e3e2"/>
+  <rect x="524" y="146" width="112" height="26" rx="7" fill="#d4c7ff"/>
+  <text x="538" y="163" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#292827">今日</text>
+  <text x="538" y="194" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#666666">目标</text>
+  <text x="538" y="222" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#666666">材料</text>
+  <text x="538" y="250" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#666666">复盘</text>
+  <text x="538" y="278" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#666666">英语专项</text>
+
+  <!-- stat cells -->
+  <rect x="668" y="146" width="124" height="66" rx="10" fill="#f2f0eb"/>
+  <text x="684" y="176" font-family="Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#292827">3/5</text>
+  <text x="684" y="198" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10.5" fill="#666666">今日计划</text>
+
+  <rect x="802" y="146" width="124" height="66" rx="10" fill="#f2f0eb"/>
+  <text x="818" y="176" font-family="Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#292827">12</text>
+  <text x="818" y="198" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10.5" fill="#666666">连续天数</text>
+
+  <rect x="936" y="146" width="124" height="66" rx="10" fill="#f2f0eb"/>
+  <text x="952" y="176" font-family="Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#292827">4</text>
+  <text x="952" y="198" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10.5" fill="#666666">本周复盘</text>
+
+  <!-- progress ring -->
+  <g>
+    <circle cx="1076" cy="179" r="26" fill="none" stroke="#e3e3e2" stroke-width="5"/>
+    <circle cx="1076" cy="179" r="26" fill="none" stroke="#714cb6" stroke-width="5" stroke-linecap="round"
+            stroke-dasharray="163" stroke-dashoffset="65" transform="rotate(-90 1076 179)"/>
+    <animateTransform attributeName="transform" type="rotate" values="0 1076 179;360 1076 179" dur="24s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- checklist -->
+  <circle cx="680" cy="244" r="7" fill="#714cb6"/>
+  <text x="678" y="248" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="8" fill="#ffffff">✓</text>
+  <text x="696" y="248" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#292827">复盘昨日错题</text>
+  <text x="1058" y="248" text-anchor="end" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10" fill="#666666">已完成</text>
+
+  <circle cx="680" cy="276" r="7" fill="#714cb6"/>
+  <text x="678" y="280" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="8" fill="#ffffff">✓</text>
+  <text x="696" y="280" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#292827">英语专项 · 20 分钟</text>
+  <text x="1058" y="280" text-anchor="end" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10" fill="#666666">已完成</text>
+
+  <circle cx="680" cy="308" r="6.5" fill="none" stroke="#421d24" stroke-width="1.4">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="696" y="312" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#666666">写一段今日简报</text>
+  <text x="1058" y="312" text-anchor="end" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10" fill="#714cb6">进行中</text>
+
+  <!-- today brief -->
+  <rect x="668" y="330" width="392" height="66" rx="10" fill="#f2f0eb"/>
+  <text x="684" y="352" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10.5" font-weight="600" fill="#292827">今日简报</text>
+  <text x="684" y="372" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10.5" fill="#666666">计划 5 项 · 完成 3 项 · 复盘 12 分钟</text>
+  <rect x="684" y="380" width="360" height="4" rx="2" fill="#e3e3e2"/>
+  <rect x="684" y="380" width="216" height="4" rx="2" fill="#421d24"/>
+
+  <!-- footer caption -->
+  <text x="72" y="496" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#666666">目标 / 今日计划 / 证据记录 · 简报与周复盘 · PDF 与文献导入</text>
+  <circle cx="1122" cy="491" r="5" fill="#0c4243">
+    <animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

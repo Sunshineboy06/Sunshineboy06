@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="CCView — 产品卡">
+  <rect width="1200" height="520" fill="#f2f0eb"/>
+
+  <text x="72" y="40" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3.5" fill="#714cb6">01 — DEV TOOL</text>
+  <text x="1128" y="40" text-anchor="end" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#666666">本地运行 · 不碰密钥</text>
+
+  <rect x="72" y="64" width="1056" height="392" rx="16" fill="#ffffff" stroke="#e3e3e2"/>
+
+  <!-- left: product identity -->
+  <rect x="104" y="104" width="36" height="36" rx="10" fill="#d4c7ff"/>
+  <text x="122" y="129" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="17" font-weight="700" fill="#421d24">C</text>
+
+  <text x="104" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="-0.6" fill="#292827">CCView</text>
+  <text x="104" y="212" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13.5" fill="#666666">Claude Code 控制台</text>
+
+  <text x="104" y="252" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="460" fill="#292827">终端里的 Claude Code，现在看得见了。</text>
+  <text x="104" y="276" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="460" fill="#292827">流式对话、工具调用卡片、GUI 权限审批，</text>
+  <text x="104" y="300" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="460" fill="#292827">完全跑在自己机器上。</text>
+
+  <text x="104" y="344" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#666666">TypeScript · Node 20+ · Vite · Agent SDK</text>
+
+  <text x="104" y="404" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="15" font-weight="540" fill="#714cb6">官网 · 申请内测 ↗</text>
+
+  <!-- right: floating UI -->
+  <rect x="516" y="96" width="584" height="328" rx="14" fill="#ffffff" stroke="#e3e3e2"/>
+
+  <!-- titlebar -->
+  <path d="M516 130 h584" stroke="#e3e3e2"/>
+  <circle cx="540" cy="113" r="4" fill="#e3e3e2"/>
+  <circle cx="554" cy="113" r="4" fill="#e3e3e2"/>
+  <circle cx="568" cy="113" r="4" fill="#e3e3e2"/>
+  <text x="586" y="118" font-family="Segoe UI, sans-serif" font-size="11.5" fill="#666666">CCView — 127.0.0.1</text>
+  <rect x="960" y="102" width="120" height="22" rx="11" fill="#f2f0eb" stroke="#e3e3e2"/>
+  <text x="1020" y="117" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#666666">claude-sonnet</text>
+
+  <!-- sidebar -->
+  <path d="M688 131 v293" stroke="#e3e3e2"/>
+  <rect x="528" y="144" width="144" height="26" rx="7" fill="#f2f0eb"/>
+  <text x="542" y="161" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#666666">搜索会话…</text>
+  <rect x="524" y="182" width="152" height="28" rx="7" fill="#d4c7ff"/>
+  <text x="538" y="200" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#292827">重构权限审批</text>
+  <text x="538" y="232" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#666666">修视觉快照</text>
+  <text x="538" y="262" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#666666">MCP 调试</text>
+  <text x="538" y="292" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11.5" fill="#666666">写 README</text>
+
+  <!-- user bubble -->
+  <rect x="900" y="146" width="176" height="30" rx="9" fill="#421d24"/>
+  <text x="988" y="165" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#ffffff">审批模块为什么卡死</text>
+
+  <!-- tool row 1 -->
+  <rect x="708" y="190" width="368" height="46" rx="10" fill="#f2f0eb" stroke="#e3e3e2"/>
+  <circle cx="724" cy="205" r="3.5" fill="#714cb6">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="736" y="209" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#292827">Read</text>
+  <text x="1058" y="209" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="10" fill="#666666">12 ms</text>
+  <text x="724" y="227" font-family="Consolas, monospace" font-size="10.5" fill="#666666">permissions/approval.ts</text>
+
+  <!-- tool row 2 -->
+  <rect x="708" y="246" width="368" height="46" rx="10" fill="#f2f0eb" stroke="#e3e3e2"/>
+  <circle cx="724" cy="261" r="3.5" fill="#0c4243">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="736" y="265" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#292827">Bash</text>
+  <text x="1058" y="265" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="10" fill="#666666">2.3 s</text>
+  <text x="724" y="283" font-family="Consolas, monospace" font-size="10.5" fill="#666666">npm test → 142 passed</text>
+
+  <!-- assistant reply with blinking caret -->
+  <rect x="708" y="302" width="330" height="34" rx="10" fill="#ffffff" stroke="#e3e3e2"/>
+  <text x="722" y="323" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#292827">锁已释放，测试全绿</text>
+  <rect x="842" y="314" width="1.5" height="12" fill="#714cb6">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- input -->
+  <rect x="708" y="362" width="368" height="34" rx="8" fill="#ffffff" stroke="#e3e3e2"/>
+  <text x="722" y="383" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#666666">输入消息…</text>
+  <rect x="1010" y="369" width="52" height="20" rx="6" fill="#714cb6"/>
+  <text x="1036" y="383" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="10.5" fill="#ffffff">发送</text>
+
+  <!-- footer caption -->
+  <text x="72" y="496" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#666666">无账号系统 · 不收集 API Key · 继承本机 CLI 认证</text>
+  <circle cx="1122" cy="491" r="5" fill="#714cb6">
+    <animate attributeName="opacity" values="0.9;0.35;0.9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

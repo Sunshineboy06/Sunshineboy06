@@ -1,94 +1,113 @@
-<!-- GitHub Profile README · 仓库名 = 用户名，本文件显示在个人主页顶部 -->
+<!--
+GitHub Profile README · 板块结构参照 superhuman.com：
+公告胶囊 → Hero(浮动卡) → 标签条 → 信任墙 → 产品卡×2 → 深青特写带 → 数据 → 渐变氛围带 → 酒红页脚
+动效仅能用 SVG 内动画（SMIL）：浮动呼吸、状态灯闪烁、光标闪烁、进度环旋转。
+-->
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Sunshineboy06" width="100%"/>
+  <a href="https://ccgui-console.app.workbuddy.host/">
+    <img src="assets/announcement.svg" width="100%" alt="v0.1.0 开发中 · 官网已上线"/>
+  </a>
 </p>
 
 <p align="center">
-  <b>学生 · 从 C/C++ 走向前端 · 在造自己每天真的会用的工具</b>
+  <img src="assets/banner.svg" width="100%" alt="Sunshineboy06 — portfolio 2026"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sunshineboy06&color=D97757&style=flat-square" alt="Profile views"/>
-  <img src="https://img.shields.io/badge/状态-两个产品开发中-D97757?style=flat-square" alt="status"/>
-  <img src="https://img.shields.io/badge/风格-先做出来再做好-7C5CBF?style=flat-square" alt="style"/>
+  <img src="assets/section-tabs.svg" width="100%" alt="CCView · LearningOS · 关于 · 技术栈 · 联系"/>
 </p>
 
----
+<!-- 信任墙：6 格技术条（对应 Superhuman 的 logo 墙） -->
+<table align="center">
+  <tr>
+    <td align="center" width="16%"><b>TypeScript</b></td>
+    <td align="center" width="16%"><b>Node.js</b></td>
+    <td align="center" width="16%"><b>Python</b></td>
+    <td align="center" width="16%"><b>FastAPI</b></td>
+    <td align="center" width="16%"><b>SQLite</b></td>
+    <td align="center" width="16%"><b>Vite</b></td>
+  </tr>
+</table>
 
-## 🧭 关于我
+C/C++ 起步，正在通过真实项目学前端与 Web 开发。相信最快的学习方式是把东西做出来，然后每天真的用它——所以这里只有两个自己天天在用的产品。
 
-- 🌱 **C/C++ 起步**，正在通过真实项目学前端与 Web 开发
-- 🔨 学习信条：**最快的学习方式是把东西做出来**，并且日常真的去用它
-- 🧰 目前在维护两个自用工具：一个开发效率工具，一个个人学习系统
+<br/>
 
----
-
-## 🚀 正在做的事
-
-### 🖥️ Claude Code 控制台 · ccgui
-
-**本地运行的 Claude Code CLI 可视化界面** —— 类似 Claude Desktop 的对话体验，但完全跑在自己机器上，无账号系统、不收集密钥。
-
-- 💬 流式对话：逐字渲染、Markdown、代码高亮、thinking 折叠
-- 🔧 工具调用可视化：Read / Edit / Bash / Grep 渲染成状态卡片
-- ✅ GUI 权限审批、会话历史恢复、Skills / MCP / 上下文面板
-- 🧱 技术栈：`TypeScript` `Node.js ≥ 20` `Vite` `Claude Agent SDK` `Playwright`
-
-<p align="left">
-  <img src="https://img.shields.io/badge/状态-🚧_开发中-orange" alt="dev"/>
-  <!-- TODO：开源后补仓库链接与截图 -->
-  🔗 仓库：整理后开源 · 官网：<a href="https://ccgui-console.app.workbuddy.host/">ccgui-console</a>
-</p>
-
-### 📚 LearningOS
-
-**个人学习操作系统** —— 把目标、计划、材料、复盘收敛成一个日常真的会打开的本机应用。
-
-- 🎯 持续学习 MVP：目标 / 今日计划 / 预算 / 证据记录
-- 📊 每日简报与周复盘，PDF 与文献导入
-- 🔤 英语专项学习模块
-- 🧱 技术栈：`Python · FastAPI` `Vite` `SQLite`
-
-<p align="left">
-  <img src="https://img.shields.io/badge/状态-🚧_开发中-orange" alt="dev"/>
-  <!-- TODO：开源后补仓库链接与截图 -->
-  🔗 仓库：整理后开源
-</p>
-
----
-
-## 🛠 技术栈
+## 01 · CCView
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C/C%2B%2B-00599C?logo=cplusplus&logoColor=white&style=flat-square" alt="C/C++"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square" alt="Python"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square" alt="HTML"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square" alt="CSS"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat-square" alt="Node"/>
-  <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=flat-square" alt="Flask"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=flat-square" alt="SQLite"/>
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat-square" alt="Git"/>
+  <a href="https://ccgui-console.app.workbuddy.host/"><img src="assets/ccview-card.svg" width="100%" alt="CCView — Claude Code 控制台"/></a>
 </p>
 
----
-
-## 📊 GitHub 统计
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Sunshineboy06&show_icons=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=Sunshineboy06&hide_border=true&locale=zh_Hans" alt="Streak"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunshineboy06&layout=compact&hide_border=true" alt="Top Languages"/>
+  <a href="https://ccgui-console.app.workbuddy.host/"><b>官网 · 申请内测</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://ccgui-console.app.workbuddy.host/#updates">产品动态</a>
+  &nbsp;·&nbsp;
+  <span>仓库整理中，暂未开源</span>
 </p>
 
----
+<br/>
 
-## 📮 联系我
+## 02 · LearningOS
 
 <p align="center">
-  <a href="https://github.com/Sunshineboy06"><img src="https://img.shields.io/badge/GitHub-@Sunshineboy06-181717?logo=github&logoColor=white&style=flat-square" alt="GitHub"/></a>
-  <!-- TODO：想公开的联系方式再加 -->
+  <img src="assets/learningos-card.svg" width="100%" alt="LearningOS — 个人学习操作系统"/>
+</p>
+
+<p align="center">
+  <span>本地应用 · 整理后开源</span>
+  &nbsp;·&nbsp;
+  <span>目标 / 今日计划 / 证据记录 / 简报与周复盘</span>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/dark-band.svg" width="100%" alt="为什么坚持本地运行"/>
+</p>
+
+<p align="center">
+  <a href="#faq">阅读隐私设计 →</a>
+</p>
+
+<br/>
+
+## 03 · 数据
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Sunshineboy06&show_icons=true&title_color=421d24&icon_color=714cb6&text_color=292827&bg_color=f2f0eb&border_color=e3e3e2" alt="GitHub Stats"/>
+  <img height="160" src="https://streak-stats.demolab.com?user=Sunshineboy06&locale=zh_Hans&background=f2f0eb&border=e3e3e2&stroke=e3e3e2&ring=714cb6&fire=421d24&currStreakNum=292827&currStreakLabel=714cb6&sideLabels=666666&sideNums=292827&dates=666666" alt="Streak"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunshineboy06&layout=compact&title_color=421d24&text_color=292827&bg_color=f2f0eb&border_color=e3e3e2" alt="Top Languages"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="assets/gradient-band.svg" width="100%" alt="做出来，用起来，再做好"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Sunshineboy06">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://ccgui-console.app.workbuddy.host/">CCView 官网</a>
+  &nbsp;·&nbsp;
+  <a href="https://ccgui-console.app.workbuddy.host/#beta">申请内测</a>
+</p>
+
+<a id="faq"></a>
+
+### 常见问题
+
+**需要账号吗？** 不需要。CCView 不登录、不收集 API Key，认证完全继承本机已登录的 Claude Code CLI。
+
+**数据存在哪里？** 产品数据只在本机（127.0.0.1）；这个主页的访客统计与内测申请，存在我自己的云端数据库里。
+
+**和终端里的 claude 命令什么关系？** 同一个 CLI，不同入口。CCView 只把过程变成可见、可点的界面。
+
+<br/>
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="footer"/>
 </p>

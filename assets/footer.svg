@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="页脚">
+  <rect width="1200" height="240" fill="#421d24"/>
+
+  <circle cx="80" cy="64" r="5" fill="#d4c7ff"/>
+  <text x="96" y="70" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff">Sunshineboy06</text>
+  <text x="80" y="100" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="14" font-weight="460" fill="#ffffff" opacity="0.7">本地优先 · 做给自己用的工具</text>
+
+  <text x="640" y="56" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">作品</text>
+  <text x="640" y="86" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">CCView 控制台</text>
+  <text x="640" y="110" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">LearningOS</text>
+
+  <text x="860" y="56" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">连接</text>
+  <text x="860" y="86" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">GitHub</text>
+  <text x="860" y="110" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">官网 · 申请内测</text>
+
+  <text x="1060" y="56" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" font-weight="700" fill="#ffffff">状态</text>
+  <text x="1060" y="86" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">v0.1.0 开发中</text>
+  <text x="1060" y="110" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#ffffff" opacity="0.7">2026</text>
+
+  <path d="M80 160 H1120" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="80" y="196" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#ffffff" opacity="0.6">用真实项目学前端与 Web 开发 · 先做出来，再做好</text>
+  <circle cx="1108" cy="192" r="4" fill="#714cb6" opacity="0.9"/>
+</svg>
